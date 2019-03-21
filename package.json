@@ -9,7 +9,7 @@
   "author": "James York",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "gulp": "^3.9.0",
     "gulp-jasmine": "^2.0.1",
     "gulp-jshint": "^2.1.0",
     "jasmine-core": "^2.3.4",
@@ -19,5 +19,8 @@
     "karma-chrome-launcher": "^0.2.0",
     "karma-jasmine": "^0.3.6",
     "karma-mocha-reporter": "^2.2.1"
+  },
+  "dependencies": {
+    "eslint": "^5.15.3"
   }
 }

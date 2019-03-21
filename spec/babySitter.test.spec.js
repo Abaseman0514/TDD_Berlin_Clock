@@ -1,9 +1,12 @@
-const babySitterCosts = require('./babySitter');
-describe('babySitter', () => {
+describe("babySitter", () => {
 
-  it('Family A should pay $15 before 11PM ', () => {
-    expect(babySitterCosts(familyA)).toBe(15);
+  it("Family A should pay $15 before 11PM", () => {
+    expect(babySitter(familyA)).toBe(15);
   });  
+
+    
+  
+  });
   // it('9 should be fizz', () => {
   //   expect(fizzBuzzWoof(9)).toBe("fizz");
   // });
@@ -25,4 +28,4 @@ describe('babySitter', () => {
   //   it('71 should be Woof', () => {
   //   expect(fizzBuzzWoof(71)).toBe("woof");
   // });
-});
+// });
